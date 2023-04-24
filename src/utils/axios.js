@@ -3,8 +3,8 @@ import axios from 'axios';
 import { getUserFromLocalStorage } from './localStorage';
 
 const customFetch = axios.create({
-  // baseURL: 'https://adire-web-service.onrender.com',
-  baseURL: 'http://localhost:9090',
+  baseURL: 'https://adire-web-service.onrender.com',
+  // baseURL: 'http://localhost:9090',
 });
 
 
